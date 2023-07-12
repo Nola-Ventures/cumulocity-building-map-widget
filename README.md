@@ -1,4 +1,4 @@
-# Cumulocity Drag'n'Drop Map Widget [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/Nola-Consulting/c8y-building-map-widget/releases/download/1014.0.0/nola-cockpit-release-10_14.zip)
+# Cumulocity Drag'n'Drop Map Widget [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases/download/plugin_demo_10.16/dragndrop-map-widget-plugin-1016.zip)
 
 - [Cumulocity Drag'n'Drop Map Widget ](#cumulocity-dragndrop-map-widget-)
 	- [Overview](#overview)
@@ -30,13 +30,13 @@ The `Cumulocity Drag'n'Drop Map Widget` designed for the Cumulocity IoT Cloud Pl
 Following, there are two options to install the widget.
 ### Cockpit application
 The `Drag'n'Drop Map Widget` can be shipped as a standalone application. This means it will be installed as a separate application, which provides all the features of the
-`Drag'n'Drop Map Widget` as `Nola Cockpit` application. The standalone application is available in the [release section](https://github.com/Nola-Consulting/c8y-building-map-widget/releases)
+`Drag'n'Drop Map Widget` as `Nola Cockpit` application. The standalone application is available in the [release section](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases)
 and can be downloaded.
 
 **Installation of the cockpit web application:**
 
-1. Download *{release}*.zip
- from the [release section](https://github.com/Nola-Consulting/c8y-building-map-widget/releases)
+1. Download *nola-cockpit-demo-{version}*.zip
+ from the [release section](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases)
 1. Open the `Administration` application in your Cumulocity tenant
 2. Navigate to `Ecosystem` ➡️ `Applications`
 3. Click on `Add application`
@@ -59,8 +59,9 @@ Since Cumulocity v.10.16, the platform allows us to upload ["loosely coupled fun
 The benefits are to easily integrate new plugins, such as the `Drag'n'Drop Map Widget`, into your existing environment 
 
 **Installation of the plugin:**
-1. Download *{release}*.zip
- from the [release section](https://github.com/Nola-Consulting/c8y-building-map-widget/releases)
+1. Download *dragndrop-map-widget-plugin-{version
+}*.zip
+ from the [release section](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases)
 1. Open the `Administration` application in your Cumulocity tenant
 2. Navigate to `Ecosystem` ➡️ `Applications`
 3. Click on the `Packages` tab
