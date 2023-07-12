@@ -1,21 +1,24 @@
-# Cumulocity Drag'n'Drop Map Widget [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases/download/demo_release_1.0/dragndrop-map-widget-demo.zip)
+# Cumulocity Drag'n'Drop Map Widget [<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/Nola-Consulting/c8y-building-map-widget/releases/download/1014.0.0/nola-cockpit-release-10_14.zip)
 
-## Table of Contents
-- [Overview](#overview)
-- [Installation](#installation)
-- [Usage](#usage)
-	- [Upload Map picture](#upload-map-picture)
-	- [Drag-and-Drop devices](#drag-and-drop-devices)
-	- [Real-time alerting](#real-time-alerting)
+- [Cumulocity Drag'n'Drop Map Widget ](#cumulocity-dragndrop-map-widget-)
+	- [Overview](#overview)
+	- [Installation](#installation)
+		- [Cockpit application](#cockpit-application)
+		- [Micro-Frontend plugin](#micro-frontend-plugin)
+	- [Usage](#usage)
+		- [Upload Map picture:](#upload-map-picture)
+		- [Drag-and-Drop devices:](#drag-and-drop-devices)
+		- [Real-time alerting:](#real-time-alerting)
+	- [Any comments, suggestions or ideas?](#any-comments-suggestions-or-ideas)
 
 
 ## Overview
 
 The `Cumulocity Drag'n'Drop Map Widget` designed for the Cumulocity IoT Cloud Platform, is a simple map view with drag-and-drop functionality to position your IoT devices accordingly.
 
-### **Examples how the Drag'n'Drop Map Widget can be used:**
+**Examples how the Drag'n'Drop Map Widget can be used:**
 
-<img src="./assets/example-building-map-widget.jpg" alt="example_building_map_widget map with devices on their positions" width="80%"/>            | <img src="./assets/wind-turbine.png" alt="example_building_map_widget with wind turbine and sensors shown on their positions" width="80%"/>
+<img src="./assets/example-dragndrop-map-widget.png" alt="example_building_map_widget map with devices on their positions" width="80%"/>            | <img src="./assets/wind-turbine.png" alt="example_dragndrop_map_widget with wind turbine and sensors shown on their positions" width="80%"/>
 :-------------------------:|:-------------------------:
 *Widget displaying a custom map and self-service positioned devices.*  |  *Widget displaying a wind turbine and self-service positioned sensors.*
 
@@ -24,19 +27,21 @@ The `Cumulocity Drag'n'Drop Map Widget` designed for the Cumulocity IoT Cloud Pl
 `Note: Drag'n'Drop Map Widget is supported on Cumulocity UI version of 10.14 and above.`
 
 ## Installation
-The `Drag'n'Drop Map Widget` is shipped as a standalone application for now. This means it will be installed as a separate application, which provides all the features of the
-`Drag'n'Drop Map Widget` as `Nola Cockpit` application. The standalone application is available in the [release section](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases)
+Following, there are two options to install the widget.
+### Cockpit application
+The `Drag'n'Drop Map Widget` can be shipped as a standalone application. This means it will be installed as a separate application, which provides all the features of the
+`Drag'n'Drop Map Widget` as `Nola Cockpit` application. The standalone application is available in the [release section](https://github.com/Nola-Consulting/c8y-building-map-widget/releases)
 and can be downloaded.
 
-### For installation of cockpit web application:
+**Installation of the cockpit web application:**
 
 1. Download *{release}*.zip
- from the [release section](https://github.com/Nola-Ventures/cumulocity-dragndrop-map-widget-demo/releases)
-2. Open the `Administration` application in your Cumulocity tenant
-3. Navigate to `Ecosystem` --> `Applications`
-4. Click on `Add application`
-5. Select `Upload web application` in the modal dialog
-6. Select the zip archive, which you downloaded from the release section, to upload it to the tenant
+ from the [release section](https://github.com/Nola-Consulting/c8y-building-map-widget/releases)
+1. Open the `Administration` application in your Cumulocity tenant
+2. Navigate to `Ecosystem` ➡️ `Applications`
+3. Click on `Add application`
+4. Select `Upload web application` in the modal dialog
+5. Select the zip archive, which you downloaded from the release section, to upload it to the tenant.
 
 <p align="center">
 	<img src="./assets/upload_dragndrop_widget_application.gif" alt="install_nola_cockpit_app" width="80%"/>
@@ -47,6 +52,20 @@ After following these instructions, the application will be deployed on the tena
 
 Using the `Nola Cockpit` application you have access to the `Drag'n'Drop Map Widget` for your dashboards.
 
+
+### Micro-Frontend plugin
+Since Cumulocity v.10.16, the platform allows us to upload ["loosely coupled functionality that can be developed and deployed independently"](https://tech.forums.softwareag.com/t/the-power-of-micro-frontends-how-to-dynamically-extend-cumulocity-iot-frontends/266665), called `plugins`.
+
+The benefits are to easily integrate new plugins, such as the `Drag'n'Drop Map Widget`, into your existing environment 
+
+**Installation of the plugin:**
+1. Download *{release}*.zip
+ from the [release section](https://github.com/Nola-Consulting/c8y-building-map-widget/releases)
+1. Open the `Administration` application in your Cumulocity tenant
+2. Navigate to `Ecosystem` ➡️ `Applications`
+3. Click on the `Packages` tab
+4. Click on `Add package`
+5. Select the zip archive, which you downloaded from the release section, to upload it to the tenant.
 ## Usage
 
 Using the widget, it is assumed that the IoT devices of interest are already registered in the cloud. For administrative management, it is usually common to create some group structure and assign the IoT devices and sensors to these groups.
